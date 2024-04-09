@@ -499,6 +499,21 @@ canvas{
     z-index: 1;
 }
 
+@media only screen and (min-width: 768px) {
+    .blog-container {
+        width: 45%;
+        margin: 0 auto;
+    }
+}
+
+/* Mobil ekranlar için */
+@media only screen and (max-width: 767px) {
+    .blog-container {
+        width: 100%; 
+        margin: 0 auto; 
+    }
+}
+
 .container-fluid.main{
     padding: 0;
 }
@@ -1547,6 +1562,12 @@ h3.discussion-title {
     -moz-border-radius:50%;
     border-radius:50%;
     width: 75%;
+}
+
+@media only screen and (max-width: 768px) {
+    .discussion-items img {
+        width: 35%;
+    }
 }
 
 .discussion-items:last-child{
